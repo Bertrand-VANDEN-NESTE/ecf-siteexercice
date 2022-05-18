@@ -1,0 +1,221 @@
+/* réglage de base */
+
+:root {
+    --color-orange: #F39805;
+    --color-green: #B2C73A;
+    --color-blanc: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+li,
+ul {
+    list-style: none;
+}
+
+/* En-tête de la page */
+
+.phone span {
+    color: var(--color-green);
+}
+
+.mail span {
+    color: var(--color-green);
+}
+
+/* navbar */
+
+.navbar_1 {
+    background-color: #B2C73A;
+}
+
+/* animation boutton*/
+
+.navbar-nav {
+    padding-bottom: 0rem;
+    text-align: center;
+}
+
+.navbar-nav li {
+    width: 100px;
+    height: 40px;
+}
+
+.navbar-nav li a {
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: all 2s;
+}
+
+.navbar-nav li:hover {
+    background-color: #F39805;
+    border-radius: 25px;
+    z-index: 1;
+    width: 100px;
+    height: 40px;
+}
+
+/*fin animation bouton */
+
+.titres_en_tête h1,
+.headerRow h2 {
+    color: var(--color-blanc);
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.titres_en_tête h2 {
+    color: var(--color-blanc);
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.bar-search {
+    border-color: #F39805 !important;
+    border-radius: 100px !important;
+}
+
+.headerRow {
+    background-image: url('image/façade.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 85%;
+    overflow: hidden;
+}
+
+.icons-taille {
+    width: 30px;
+}
+
+/* partie promotion 3 bloques*/
+
+.promo {
+    background-color: rgba(178, 199, 58, 0.7);
+    margin-bottom: 50px;
+    border-radius: 15px;
+    margin-left: 5%;
+}
+
+.text-promo {
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3 {
+    overflow: hidden;
+}
+
+.btn-promo {
+    margin-left: 70%;
+}
+
+/* partie produits à l'affiche*/
+
+.titre_produits {
+    color: var(--color-orange);
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+.titre_produits-2 {
+    color: var(--color-green);
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.color-btn {
+    color: #FFFFFF !important;
+    background-color: #F39805 !important;
+    border-color: #F39805 !important;
+}
+
+.span-color {
+    color: #F39805;
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+}
+
+.ligne-points {
+    border: 5px dashed #B2C73A;
+    height: 1px;
+    margin-top: 30px !important;
+    background-color: #FFFFFF;
+}
+
+.ligne-vertical {
+    border: 2px solid #B2C73A;
+    background-color: #B2C73A;
+    transform: rotate(90deg);
+    height: 4px;
+    width: 200px;
+}
+
+.footer-color {
+    height: 5vh;
+    background-color: #B2C73A;
+}
+
+.prix {
+    color: #B2C73A;
+}
+
+.show,
+.collapsin {
+    text-align: end;
+}
+
+.navbar-toggler-icon {
+    display: block !important;
+    width: 15px !important;
+    height: 2px !important;
+    background-color: white;
+    margin: 6px 0 !important;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+/*médiaquerise*/
+
+@media screen and (min-width: 320px),
+(max-width:425px) {
+    .icons-right {
+        text-align: center;
+    }
+
+    .footer-copyright {
+        font-size: smaller;
+    }
+}
+
+@media screen and (min-width: 320px),
+(max-width: 768px) {
+    .titres_en_tête h1 {
+        font-size: 2rem;
+    }
+
+    .titres_en_tête h1 {
+        font-size: 1.5rem;
+    }
+
+    .icons-right {
+        padding-top: 30px;
+    }
+
+    .bar-position {
+        padding-top: 2px;
+    }
+}
+
+@media screen and (min-width: 768px),
+(max-width: 1023px) {
+    .icons-right {
+        padding-top: 25px;
+    }
+}
