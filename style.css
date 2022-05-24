@@ -78,7 +78,7 @@ ul {
 }
 
 .headerRow {
-    background-image: url('image/façade.png');
+    background-image: url('image/facade.png');
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 85%;
@@ -90,6 +90,12 @@ ul {
 }
 
 /* partie promotion 3 bloques*/
+
+#titrepromo {
+    color: var(--color-orange);
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+}
 
 .promo {
     background-color: rgba(178, 199, 58, 0.7);
@@ -180,6 +186,11 @@ ul {
     color: #FFFFFF;
     font-style: italic;
 }
+
+.dimg {
+    width: 10vw;
+}
+
 
 /*médiaquerise*/
 
